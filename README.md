@@ -15,7 +15,7 @@ An API for a social network web application where users can share their thoughts
 - dotenv
 
 ## Usage
-
+-  can be used as a backbone to suppliment a social network service
 
 ## Credit
 - Nicolas pace
