@@ -15,7 +15,7 @@ An API for a social network web application where users can share their thoughts
 - dotenv
 
 ## Usage
-
+- once you're in the main path on the terminal.  do npm start in the terminal and it will become a database in your local mongo under SN-API
 
 ## Credit
 - Nicolas pace

@@ -1,6 +1,6 @@
 const express = require('express');
 const db = require('./config/connection');
-const routes = require('./routes/api');  // Links to index.js in routes/api
+const routes = require('./routes/api');  
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3001;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.use('/api', routes);  // Use the routes from the routes/api/index.js
+app.use('/api', routes);  
 
 db.once('open', () => {
   app.listen(PORT, () => {
